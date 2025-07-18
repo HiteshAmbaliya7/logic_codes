@@ -14,7 +14,7 @@ long long int facto (int n)                         // we take long long int dat
     return fact;
 }
 
-int mai5n()
+int main()
 {
     int n,r;
     cout << "Enter the value of n : ";              // take number of thigs or etc....
