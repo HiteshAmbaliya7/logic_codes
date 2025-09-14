@@ -23,7 +23,7 @@ using namespace std;
         cout << "Array is Empty , so can not delete any element"<<endl;
         return size;
     }
-    cout<< "Deleted "<<arr[size-1] << "from Array"<<endl;
+    cout<< "Deleted "<<arr[size-1] << "  from Array"<<endl;
     return size-1;
  }
 
@@ -52,6 +52,10 @@ int main()
     currentSize= addElem(arr,currentSize,max_size,20);
     currentSize= addElem(arr,currentSize,max_size,25);
     currentSize= addElem(arr,currentSize,max_size,30);
+    disp(arr,currentSize);
+    // delete elemnt orom thr array 
+    currentSize= deleteElem(arr,currentSize);
+    currentSize= deleteElem(arr,currentSize);
     disp(arr,currentSize);
 
     return 0;
